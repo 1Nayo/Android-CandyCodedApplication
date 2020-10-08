@@ -80,8 +80,6 @@ public class MainActivity extends AppCompatActivity {
         inflater.inflate(R.menu.main, menu);
         return true;
     }
-    // ***
-    // TODO - Task 1 - Show Store Information Activity
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -90,7 +88,8 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-
+    // ***
+    // TODO - Task 1 - Show Store Information Activity
     // ***
 
     private void addCandiesToDatabase(Candy[] candies) {
